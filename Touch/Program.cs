@@ -1,0 +1,1 @@
+﻿args.ToList().ForEach(Console.WriteLine);
