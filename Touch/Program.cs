@@ -1,6 +1,7 @@
 ﻿try
 {
-    foreach (var file in args)
+    var filesSet = args.ToHashSet();
+    foreach (var file in filesSet)
     {
         try
         {
